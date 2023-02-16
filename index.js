@@ -5,7 +5,7 @@ const { AzureKeyCredential, DocumentAnalysisClient } = require("@azure/ai-form-r
   const endpoint = "";
 
   // sample document
-  const formUrl = ""
+  const formUrl = "https://raw.githubusercontent.com/rayellyv/spikeUnderlyingRobotAzure/master/1234%20PLUSTERRA.pdf"
 
   async function main() {
     const client = new DocumentAnalysisClient(endpoint, new AzureKeyCredential(key));
